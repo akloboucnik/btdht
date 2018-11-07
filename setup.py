@@ -45,7 +45,8 @@ if __name__ == "__main__":
             'Topic :: Software Development :: Libraries :: Python Modules',
             'Topic :: Communications :: File Sharing'
         ],
-        install_requires=["datrie >= 0.7", "netaddr >= 0.7.12", "six >= 1.8"],
+        install_requires=["datrie==0.7.1", "netaddr >= 0.7.12", "six >= 1.8"],
+        dependency_links=['http://github.com/akloboucnik/datrie/tarball/submodules-fix#egg=datrie-0.7.1'],
         url='https://github.com/nitmir/btdht/',
         download_url="https://github.com/nitmir/btdht/releases/latest",
         zip_safe=False,

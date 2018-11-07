@@ -1,3 +1,3 @@
-datrie >= 0.7
+datrie -e git+https://github.com/akloboucnik/datrie.git@submodules-fix#egg=datrie-0.7.1
 netaddr >= 0.7.12
 six >= 1.8
